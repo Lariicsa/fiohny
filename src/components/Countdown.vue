@@ -2,23 +2,23 @@
 
 <template>
 	<div class="justify-space-around py-4 my-auto">
-		<div class="flex flex-col justify-center items-center bg-[#A61616] rounded-full p-4 w-[180px] h-[180px] text-white text-center font-medium text-4xl font-sans">
+		<div class="flex flex-col justify-center items-center bg-[#A61616] rounded-full p-4 sm:w-[180px] w-[140px] sm:h-[180px] h-[140px] text-white text-center font-medium text-2xl sm:text-4xl font-sans">
 			<p>{{ days % 365 }}</p>
 			<span>días</span>
 		</div>
-		<div class="flex flex-col justify-center items-center bg-[#A61616] rounded-full p-4 w-[180px] h-[180px] text-white text-center font-medium text-4xl font-sans">
+		<div class="flex flex-col justify-center items-center bg-[#A61616] rounded-full p-4 sm:w-[180px] w-[140px] sm:h-[180px] h-[140px] text-white text-center font-medium text-2xl sm:text-4xl font-sans">
 			<p>
 				{{ hours % 24 }}
 			</p>
 			<span>horas</span>
 		</div>
-		<div class="flex flex-col justify-center items-center bg-[#A61616] rounded-full p-4 w-[180px] h-[180px] text-white text-center font-medium text-4xl font-sans">
+		<div class="flex flex-col justify-center items-center bg-[#A61616] rounded-full p-4 sm:w-[180px] w-[140px] sm:h-[180px] h-[140px] text-white text-center font-medium text-2xl sm:text-4xl font-sans">
 			<p>
 				<p>{{ minutes % 60 }}</p>
 				<span> minutos </span>
 			</p>
 		</div>
-		<div class="flex flex-col justify-center items-center bg-[#A61616] rounded-full p-4 w-[180px] h-[180px] text-white text-center font-medium text-4xl font-sans">
+		<div class="flex flex-col justify-center items-center bg-[#A61616] rounded-full p-4 sm:w-[180px] w-[140px] sm:h-[180px] h-[140px] text-white text-center font-medium text-2xl sm:text-4xl font-sans">
 			<p>
 				{{ seconds % 60 }}
 			</p>
