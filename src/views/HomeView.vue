@@ -12,6 +12,8 @@
 	</div>
 </template>
 
+
+
 <script setup>
 // @ is an alias to /src
 import { watchEffect, onMounted } from "vue";
