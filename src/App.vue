@@ -33,7 +33,7 @@
 					<p class="text-white text-[32px] font-libre">07 oct 23</p>
 				</div>
 				<div
-					class="grid grid-cols-1 md:grid-cols-2 gap-1 h-auto w-full max-w-[800px] mx-auto my-[32px]">
+					class="grid grid-cols-1 md:grid-cols-2 gap-y-[8px] sm:gap-x-8 h-auto w-full max-w-[800px] mx-auto my-[32px]">
 					<CardInfo :data="weddingData"> </CardInfo>
 				</div>
 			</template>
@@ -55,5 +55,6 @@
 			url: "https://goo.gl/maps/97usis8JNZQM3nxk8",
 			extra: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.503009970932!2d-99.14775159999999!3d19.433868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8d5233ea5b3%3A0x3dbed59e6772d84f!2sIglesia%20Metodista%20El%20Mes%C3%ADas!5e0!3m2!1sen!2smx!4v1693083248682!5m2!1sen!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
 		},
+
 	];
 </script>
