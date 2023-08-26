@@ -23,8 +23,8 @@
 					class="text-[#DEA95A] text-[56px] w-auto mx-auto mt-4 font-monte-carlo text-center leading-[72px]">
 					Luis y Fionna
 				</h1>
-				<div class="p-4 mt-8">
-					<Countdown class="grid grid-cols-4 gap-1 mx-auto"></Countdown>
+				<div class="block p-4 mt-8 w-full md:w-[456px] mx-auto">
+					<Countdown class="grid grid-cols-4 gap-1 mx-auto "></Countdown>
 					<hr
 						class="h-[1px] w-full bg-transparent border-b border-[#846537] my-4" />
 				</div>
