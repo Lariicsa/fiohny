@@ -1,12 +1,12 @@
 /** @format */
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 export default {
 	content: ["./src/**/*.{html,js}", "./src/**/*.vue"],
 	darkMode: "class",
 	theme: {
 		colors: {
-      white: "#ffffff",
+			white: "#ffffff",
 			black: "#0a0a0a",
 			darkgray: "#333333",
 			darkyellow: "#D09512",
@@ -39,9 +39,10 @@ export default {
 				"4xl": "2rem",
 			},
 
-      fontFamily: {
-        libre: ['"MonteCarlo"', ...defaultTheme.fontFamily.sans]
-      }
+			fontFamily: {
+				"monte-carlo": ['"MonteCarlo"', ...defaultTheme.fontFamily.sans],
+				libre: ['"Libre Bodoni"', ...defaultTheme.fontFamily.sans],
+			},
 		},
 	},
 };

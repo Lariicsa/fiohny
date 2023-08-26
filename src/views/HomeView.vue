@@ -1,14 +1,6 @@
 <template>
 	<div class="container flex items-center justify-center mx-auto px-4 h-screen">
-		<h1>Luis y Fionna</h1>
-		<div>
-			<p>Faltan:</p>
-			<span>{{ timer.days }} días</span>:<span>{{ timer.hours }} horas</span
-			>:<span>{{ timer.minutes }} minutos</span>:<span
-				>{{ timer.seconds }} segundos</span
-			>
-		</div>
-		<p>{{ timer.isRunning ? "Running" : "Not running" }}</p>
+home
 	</div>
 </template>
 

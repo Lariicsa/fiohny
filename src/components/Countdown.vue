@@ -1,28 +1,35 @@
 <!-- @format -->
 
 <template>
-	<div class="justify-space-around py-4 my-auto">
-		<div class="flex flex-col justify-center items-center bg-[#A61616] rounded-full p-4 sm:w-[180px] w-[140px] sm:h-[180px] h-[140px] text-white text-center font-medium text-2xl sm:text-4xl font-sans">
-			<p>{{ days % 365 }}</p>
-			<span>días</span>
+	<div class="justify-space-around py-[4px] my-auto">
+		<div
+			class="flex flex-col justify-center items-center text-white text-center font-libre">
+			<p class="font-bold text-[31px]">{{ days % 365 }}</p>
+			<span class="text-sm">días</span>
 		</div>
-		<div class="flex flex-col justify-center items-center bg-[#A61616] rounded-full p-4 sm:w-[180px] w-[140px] sm:h-[180px] h-[140px] text-white text-center font-medium text-2xl sm:text-4xl font-sans">
-			<p>
+
+		<div
+			class="flex flex-col justify-center items-center text-white text-center font-libre">
+			<p class="font-bold text-[30px]">
 				{{ hours % 24 }}
 			</p>
-			<span>horas</span>
+			<span class="text-sm">horas</span>
 		</div>
-		<div class="flex flex-col justify-center items-center bg-[#A61616] rounded-full p-4 sm:w-[180px] w-[140px] sm:h-[180px] h-[140px] text-white text-center font-medium text-2xl sm:text-4xl font-sans">
-			<p>
-				<p>{{ minutes % 60 }}</p>
-				<span> minutos </span>
+
+		<div
+			class="flex flex-col justify-center items-center text-white text-center font-libre">
+			<p class="font-bold text-[30px]">
+				{{ minutes % 60 }}
 			</p>
+			<span class="text-sm"> min </span>
 		</div>
-		<div class="flex flex-col justify-center items-center bg-[#A61616] rounded-full p-4 sm:w-[180px] w-[140px] sm:h-[180px] h-[140px] text-white text-center font-medium text-2xl sm:text-4xl font-sans">
-			<p>
+
+		<div
+			class="flex flex-col justify-center items-center text-white text-center font-libre">
+			<p class="font-bold text-[30px]">
 				{{ seconds % 60 }}
 			</p>
-			<span>segundos</span>
+			<span class="text-sm">seg</span>
 		</div>
 	</div>
 </template>
