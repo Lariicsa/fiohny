@@ -7,7 +7,7 @@
 		<div
 			class="relative flex flex-col p-[16px] absolute flex w-full h-full bg-[rgba(0,0,0,0.7)] lg:p-8">
 			<div
-				class="relative flex flex-col border border-[#dea95a] w-full h-full rounded-sm min-h-screen px-[16px]">
+				class="relative flex flex-col border border-[#dea95a] w-full h-full rounded-sm min-h-screen px-[16px] pb-[32px]">
 				<slot name="containter"></slot>
 			</div>
 		</div>
