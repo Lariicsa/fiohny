@@ -5,7 +5,7 @@
 		class="relative flex flex-col w-full h-full min-h-screen bg-contain md:bg-cover bg-top bg-no-repeat"
 		:style="`background-image: url(${coverImage})`">
 		<div
-			class="relative flex flex-col p-[16px] absolute min-h-screen flex w-full h-full bg-[rgba(0,0,0,0.7)] lg:p-8">
+			class="relative flex flex-col p-[16px] absolute flex w-full h-full bg-[rgba(0,0,0,0.7)] lg:p-8">
 			<div
 				class="relative flex flex-col border border-[#dea95a] w-full h-full rounded-sm min-h-screen px-[16px]">
 				<slot name="containter"></slot>
