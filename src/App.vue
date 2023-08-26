@@ -56,5 +56,14 @@
 			extra: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.503009970932!2d-99.14775159999999!3d19.433868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8d5233ea5b3%3A0x3dbed59e6772d84f!2sIglesia%20Metodista%20El%20Mes%C3%ADas!5e0!3m2!1sen!2smx!4v1693083248682!5m2!1sen!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
 		},
 
+		{
+			title: "Salón",
+			bgImage: "mandala_1.webp",
+			subtitle: "Jardín de Eventos Mandala",
+			text: "Av. 602, Pensador Mexicano 8:30pm",
+			abstract: "Después de la ceremonia te esperamos.",
+			url: "https://goo.gl/maps/jV7LRxRb88ZpoCmx9",
+			extra: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.1493873201475!2d-99.07970542433075!3d19.449124981833837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fbf3e90799ab%3A0x2b762d7d7fefefdf!2sJard%C3%ADn%20de%20Eventos%20Mandala!5e0!3m2!1sen!2smx!4v1693089082437!5m2!1sen!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+		},
 	];
 </script>
