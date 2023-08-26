@@ -29,7 +29,7 @@
 						class="h-[1px] w-full bg-transparent border-b border-[#846537] my-4" />
 				</div>
 
-				<div class="flex flex-col w-auto mx-auto">
+				<div class="flex flex-col w-auto mx-auto my-[40px]">
 					<p class="text-white text-[24px] font-libre">Save the date</p>
 					<p class="text-white text-[32px] font-libre">07 nov 23</p>
 				</div>
