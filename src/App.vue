@@ -33,7 +33,7 @@
 					<p class="text-white text-[32px] font-libre">07 oct 23</p>
 				</div>
 				<div
-					class="grid grid-cols-1 md:grid-cols-2 gap-1 h-auto w-full mx-auto my-[32px]">
+					class="grid grid-cols-1 md:grid-cols-2 gap-1 h-auto w-full max-w-[800px] mx-auto my-[32px]">
 					<CardInfo :data="weddingData"> </CardInfo>
 				</div>
 			</template>
