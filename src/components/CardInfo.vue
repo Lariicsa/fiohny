@@ -4,7 +4,7 @@
 	<div
 		@click="showModal"
 		v-for="item in data"
-		class="h-[210px] h-full w-full bg-cover bg-center"
+		class="h-[210px] sm:min-h-[210px] h-full w-full bg-cover bg-center"
 		:style="`background-image: url(${item.bgImage})`">
 		<div
 			class="bg-card h-full flex flex-col p-4 justify-center items-center font-libre text-[#aa8143] text-[24px] text-center">
