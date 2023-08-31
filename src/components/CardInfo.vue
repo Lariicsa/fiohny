@@ -2,16 +2,17 @@
 
 <template>
 	<div
-		@click="showModal"
-		v-for="item in data"
-		class="card rounded-[4px] relative h-[240px] sm:min-h-[210px] h-full w-full bg-cover bg-center my-[16px] sm:opacity-90 sm:cursor-pointer sm:hover:opacity-100"
+		
+		v-for="(item, index) in data"
+		@click="showModal(index)"
+		class="card rounded-[4px] relative h-[240px]  w-full bg-cover bg-center my-[16px] sm:opacity-90 sm:cursor-pointer sm:hover:opacity-100"
 		:style="`background-image: url(${item.bgImage})`">
 		<div
 			class="bg-card h-full flex flex-col p-4 justify-center items-center font-libre text-[#aa8143] text-[24px] text-center">
 			{{ item.title }}
 		</div>
 
-		<Modal :show="isOpen" @close="closeModal" maxWidth="2xl">
+		<Modal :show="showIndex === index" @close="closeModal" maxWidth="2xl">
 			<div
 				class="bg-white flex flex-col h-full min-h-screen p-[40px] justify-center items-center">
 				<h1 class="text-[24px] text-[#a61616] text-bold font-libre">
@@ -33,13 +34,16 @@
 	import Modal from "@/components/Modal.vue";
 	import { ref } from "vue";
 
+	const showIndex = ref(null)
 	const isOpen = ref(false);
-	const showModal = () => {
-		isOpen.value = true;
+	const showModal = (index) => {
+		showIndex.value = index
+		//isOpen.value = true;
 	};
 
 	const closeModal = () => {
-		isOpen.value = false;
+		//isOpen.value = false;
+		showIndex.value = false
 	};
 
 	defineProps({

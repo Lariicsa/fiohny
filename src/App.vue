@@ -47,14 +47,25 @@
 
 	const tableLinks = `
 	<ul class="flex flex-col p-0 w-[200px] mx-auto">
-		<li class="w-full my-8 text-xl px-4 py-2 bg-[#e10098] sm:hover:bg-[#bb1084] rounded-sm text-white text-center"><a href='https://mesaderegalos.liverpool.com.mx/milistaderegalos/51163105' target="_blank">Liverpool</a>
-	</li>
-	<li class="my-8 text-xl px-4 py-2 bg-[#febd69] sm:hover:bg-[#f3a847] rounded-sm text-[#111] text-center"><a href='https://www.amazon.com.mx/wedding/fionna-gaytan-luis-avila-mexico-october-2023/registry/3PBUJRUQSJILE' target="_blank">Amazon</a></li>
+		<li class="w-full my-8 text-xl px-4 py-2 bg-[#e10098] sm:hover:bg-[#bb1084] rounded-sm text-white text-center">
+			<a href='https://mesaderegalos.liverpool.com.mx/milistaderegalos/51163105' target="_blank">Liverpool</a>
+			</li>
+	<li class="my-8 text-xl px-4 py-2 bg-[#febd69] sm:hover:bg-[#f3a847] rounded-sm text-[#111] text-center">
+		<a href='https://www.amazon.com.mx/wedding/fionna-gaytan-luis-avila-mexico-october-2023/registry/3PBUJRUQSJILE' target="_blank">Amazon</a>
+		</li>
 		</ul>
+	`;
+
+	const dressInfo = `
+		<div class="flex flex-col  w-full">
+			<p class="text-[#2b3784] font-bold">No niños </p>
+			<p>Es de nuestro agrado mantener este evento para adultos. Agradecemos tu comprensión.</p>
+		</div>
 	`;
 
 	const weddingData = [
 		{
+			id: 1,
 			title: "Ceremonia",
 			bgImage: "iglesia.jpg",
 			subtitle: "Iglesia Metodista El Mesías",
@@ -63,8 +74,8 @@
 			url: "https://goo.gl/maps/97usis8JNZQM3nxk8",
 			extra: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.503009970932!2d-99.14775159999999!3d19.433868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8d5233ea5b3%3A0x3dbed59e6772d84f!2sIglesia%20Metodista%20El%20Mes%C3%ADas!5e0!3m2!1sen!2smx!4v1693083248682!5m2!1sen!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
 		},
-
 		{
+			id: 2,
 			title: "Salón",
 			bgImage: "mandala_1.webp",
 			subtitle: "Jardín de Eventos Mandala",
@@ -74,15 +85,22 @@
 			extra: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.1493873201475!2d-99.07970542433075!3d19.449124981833837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fbf3e90799ab%3A0x2b762d7d7fefefdf!2sJard%C3%ADn%20de%20Eventos%20Mandala!5e0!3m2!1sen!2smx!4v1693089082437!5m2!1sen!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
 		},
 		{
+			title: "Dress Code",
+			bgImage: "casual.jpg",
+			subtitle: "Dress Code",
+			text: "El código de vestimenta para el evento es: Formal",
+			abstract: "",
+			url: "",
+			extra: dressInfo,
+		},
+		{
 			title: "Mesa de Regalos",
 			bgImage: "mandala_3.jpeg",
 			subtitle: "Agradecemos cualquier detalle",
 			text: "Y para que te des una idea, aquí te dejamos algunas sugerencias:",
-			abstract: "Después de la ceremonia te esperamos.",
+			abstract: ".",
 			url: "",
 			extra: tableLinks,
 		},
 	];
 </script>
-
-<style></style>
