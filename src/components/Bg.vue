@@ -27,4 +27,22 @@
 			rgba(43, 55, 132, 1) 100%
 		);
 	}
+
+	.bg-gradient-animated {
+		background: linear-gradient(-45deg, #dea95a, #22103b, #5c3c8f, #1e1e1e);
+		background-size: 400% 400%;
+		animation: gradient 3s ease infinite;
+	}
+
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
 </style>
