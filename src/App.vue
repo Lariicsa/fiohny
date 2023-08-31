@@ -45,6 +45,14 @@
 	import CardInfo from "./components/CardInfo.vue";
 	import Countdown from "./components/Countdown.vue";
 
+	const tableLinks = `
+	<ul class="flex flex-col p-0 w-[200px] mx-auto">
+		<li class="w-full my-8 text-xl px-4 py-2 bg-[#e10098] sm:hover:bg-[#bb1084] rounded-sm text-white text-center"><a href='https://mesaderegalos.liverpool.com.mx/milistaderegalos/51163105' target="_blank">Liverpool</a>
+	</li>
+	<li class="my-8 text-xl px-4 py-2 bg-[#febd69] sm:hover:bg-[#f3a847] rounded-sm text-[#111] text-center"><a href='https://www.amazon.com.mx/wedding/fionna-gaytan-luis-avila-mexico-october-2023/registry/3PBUJRUQSJILE' target="_blank">Amazon</a></li>
+		</ul>
+	`;
+
 	const weddingData = [
 		{
 			title: "Ceremonia",
@@ -65,5 +73,16 @@
 			url: "https://goo.gl/maps/jV7LRxRb88ZpoCmx9",
 			extra: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.1493873201475!2d-99.07970542433075!3d19.449124981833837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fbf3e90799ab%3A0x2b762d7d7fefefdf!2sJard%C3%ADn%20de%20Eventos%20Mandala!5e0!3m2!1sen!2smx!4v1693089082437!5m2!1sen!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
 		},
+		{
+			title: "Mesa de Regalos",
+			bgImage: "mandala_3.jpeg",
+			subtitle: "Agradecemos cualquier detalle",
+			text: "Y para que te des una idea, aquí te dejamos algunas sugerencias:",
+			abstract: "Después de la ceremonia te esperamos.",
+			url: "",
+			extra: tableLinks,
+		},
 	];
 </script>
+
+<style></style>

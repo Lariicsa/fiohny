@@ -4,7 +4,7 @@
 	<div
 		@click="showModal"
 		v-for="item in data"
-		class=" h-[240px] sm:min-h-[210px] h-full w-full bg-cover bg-center my-[16px] sm:opacity-90 sm:cursor-pointer sm:hover:opacity-100"
+		class="card rounded-[4px] relative h-[240px] sm:min-h-[210px] h-full w-full bg-cover bg-center my-[16px] sm:opacity-90 sm:cursor-pointer sm:hover:opacity-100"
 		:style="`background-image: url(${item.bgImage})`">
 		<div
 			class="bg-card h-full flex flex-col p-4 justify-center items-center font-libre text-[#aa8143] text-[24px] text-center">
@@ -51,5 +51,19 @@
 <style>
 	.bg-card {
 		background-color: rgb(17, 11, 22, 0.66);
+	}
+	.card {
+		box-shadow: 0 1px 16px rgba(170, 129, 67, 0.4);
+	}
+
+	.card:before {
+		content: "";
+		border: 1px solid #aa8143;
+		border-radius: 2px;
+		position: absolute;
+		top: 3%;
+		left: 2%;
+		height: 94%;
+		width: 96%;
 	}
 </style>
