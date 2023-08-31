@@ -1,7 +1,7 @@
 <!-- @format -->
 
 <template>
-	<div class="bg-gradient p-0 dark:bg-gray-800">
+	<div class="flex bg-gradient p-0 dark:bg-gray-800 h-full">
 		<Bg>
 			<template #containter>
 				<svg
