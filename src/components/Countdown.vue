@@ -5,7 +5,7 @@
 		<div
 			class="flex flex-col justify-center items-center text-white text-center font-libre">
 			<p class="font-bold text-[31px]">{{ days % 365 }}</p>
-			<span class="text-sm">días</span>
+			<span class="text-sm">día</span>
 		</div>
 
 		<div
@@ -45,7 +45,7 @@
 			const hours = ref(0);
 			const minutes = ref(0);
 			const seconds = ref(0);
-			const lunchDate = new Date("07 Octber 2023");
+			const lunchDate = new Date("08 Octber 2023");
 
 			setInterval(() => {
 				const currentDate = new Date();
