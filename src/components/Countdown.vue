@@ -45,7 +45,7 @@
 			const hours = ref(0);
 			const minutes = ref(0);
 			const seconds = ref(0);
-			const lunchDate = new Date("08 Octber 2023");
+			const lunchDate = new Date("08 October 2023");
 
 			setInterval(() => {
 				const currentDate = new Date();

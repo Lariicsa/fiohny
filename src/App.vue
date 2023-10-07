@@ -2,6 +2,7 @@
 
 <template>
 	<div class="flex bg-gradient-animated  p-0 dark:bg-gray-800 h-full">
+
 		<Bg>
 			<template #containter>
 				<svg
@@ -37,7 +38,16 @@
 					<CardInfo :data="weddingData"> </CardInfo>
 				</div>
 			</template>
+
+
+			<hr />
+
+		<iframe src="https://www.instagram.com/chihuahuastagrams/" title="Fionna y Luis" height="500px" width="300px">
+			
+		</iframe>
 		</Bg>
+
+		
 	</div>
 </template>
 <script setup>
