@@ -27,6 +27,9 @@
 					<Countdown class="grid grid-cols-4 gap-1 mx-auto"></Countdown>
 					<hr
 						class="h-[1px] w-full bg-transparent border-b border-[#846537] my-4" />
+
+						<h2>Otro countdown</h2>
+						<Countdown class="grid grid-cols-4 gap-1 mx-auto"></Countdown>
 				</div>
 
 				<div class="flex flex-col w-auto mx-auto my-[16px]">
