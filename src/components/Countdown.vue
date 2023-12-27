@@ -38,7 +38,7 @@
 	import { ref } from "@vue/reactivity";
 
 	export default {
-		name: "CounterCards",
+		name: "Countdown",
 		setup() {
 			const years = ref(0);
 			const days = ref(0);

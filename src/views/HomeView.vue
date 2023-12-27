@@ -8,5 +8,4 @@ home
 
 <script setup>
 
-
 </script>
