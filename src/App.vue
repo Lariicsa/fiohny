@@ -20,7 +20,7 @@
 				</svg>
 
 				<h1
-					class="text-[#DEA95A] text-[56px] w-auto mx-auto mt-4 font-monte-carlo text-center leading-[72px]">
+					class="text-[#0099ff] text-[8vh] w-auto mx-auto mt-4 font-monte-carlo text-center leading-[72px]">
 					Luis y Fionna
 				</h1>
 				<div class="block p-4 mt-8 w-full md:w-[456px] mx-auto">
@@ -77,6 +77,15 @@
 	`;
 
 	const weddingData = [
+	{
+			title: "Mesa de Regalos",
+			bgImage: "mandala_3.jpeg",
+			subtitle: "Agradecemos cualquier detalle",
+			text: "Y para que te des una idea, aquí te dejamos algunas sugerencias:",
+			abstract: ".",
+			url: "",
+			extra: tableLinks,
+		},
 		{
 			id: 1,
 			title: "Ceremonia",
@@ -106,14 +115,6 @@
 			url: "",
 			extra: dressInfo,
 		},
-		{
-			title: "Mesa de Regalos",
-			bgImage: "mandala_3.jpeg",
-			subtitle: "Agradecemos cualquier detalle",
-			text: "Y para que te des una idea, aquí te dejamos algunas sugerencias:",
-			abstract: ".",
-			url: "",
-			extra: tableLinks,
-		},
+		
 	];
 </script>
