@@ -125,7 +125,7 @@
 </template>
 <style>
 	.has-blur::after {
-		background-color: rgba(0, 0, 0, 0.1);
+		background-color: rgba(125, 121, 121, 0.066);
 		backdrop-filter: blur(12px) brightness(110%);
 		bottom: 0;
 		content: "";

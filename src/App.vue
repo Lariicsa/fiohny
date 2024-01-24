@@ -22,17 +22,30 @@
 				<h1
 					class="text-[#DEA95A] text-[56px] w-auto mx-auto mt-4 font-monte-carlo text-center leading-[72px]">
 					Luis y Fionna
+					
 				</h1>
+
+				<h1
+					class="text-[#DEA95A] text-[50px] w-auto mx-auto mt-4 font-monte-carlo text-center leading -[75px]">
+					Han pasado:
+					
+				</h1>
+
 				<div class="block p-4 mt-8 w-full md:w-[456px] mx-auto">
 					<Countdown class="grid grid-cols-4 gap-1 mx-auto"></Countdown>
 					<hr
 						class="h-[1px] w-full bg-transparent border-b border-[#846537] my-4" />
 				</div>
+        <h1
+					class="text-[#DEA95A] text-[50px] w-auto mx-auto mt-4 font-monte-carlo text-center leading -[30px]">
+					desde que se casaron.
+					
+				</h1>
+				<div class="flex flex-col w-auto mx-auto my-[17px] items-center justify-center">
+  <p class="text-white text-[24px] font-libre">Un lindo</p>
+  <p class="text-white text-[32px] font-libre">07 oct 2023</p>
+</div>
 
-				<div class="flex flex-col w-auto mx-auto my-[16px]">
-					<p class="text-white text-[24px] font-libre">Save the date</p>
-					<p class="text-white text-[32px] font-libre">07 oct 23</p>
-				</div>
 				<div
 					class="grid grid-cols-1 md:grid-cols-2 gap-y-[8px] sm:gap-x-8 h-auto w-full max-w-[800px] mx-auto my-[32px]">
 					<CardInfo :data="weddingData"> </CardInfo>
@@ -74,11 +87,13 @@
 	`;
 
 	const weddingData = [
-		{
+{
+			
 			id: 1,
 			title: "Ceremonia",
 			bgImage: "iglesia.jpg",
 			subtitle: "Iglesia Metodista El Mesías",
+
 			text: "Balderas 47, Colonia Centro 6pm",
 			abstract: "Acompáñanos a celebrar nuestra ceremonia de unión.",
 			url: "https://goo.gl/maps/97usis8JNZQM3nxk8",

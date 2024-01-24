@@ -62,7 +62,7 @@
 
 	.card:before {
 		content: "";
-		border: 1px solid #aa8143;
+		border: 1px solid #f4f3f2;
 		border-radius: 2px;
 		position: absolute;
 		top: 3%;

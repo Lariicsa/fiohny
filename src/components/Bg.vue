@@ -7,7 +7,7 @@
 		<div
 			class="relative flex flex-col p-[16px] flex w-full h-full bg-[rgba(0,0,0,0.7)] lg:p-8">
 			<div
-				class="relative flex flex-col border border-[#dea95a] w-full h-full rounded-sm min-h-screen px-[16px] pb-[32px]">
+				class="relative flex flex-col border border-[#ffffff] w-full h-full rounded-sm min-h-screen px-[16px] pb-[32px]">
 				<slot name="containter"></slot>
 			</div>
 		</div>
@@ -19,7 +19,7 @@
 </script>
 <style>
 	.bg-gradient {
-		background: rgb(4, 3, 2);
+		background: rgba(237, 237, 236, 0.299);
 		background: linear-gradient(
 			180deg,
 			rgba(4, 3, 2, 1) 0%,
