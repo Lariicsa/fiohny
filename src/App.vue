@@ -20,7 +20,7 @@
 				</svg>
 
 				<h1
-					class="text-[#DEA95A] text-[56px] w-auto mx-auto mt-4 font-monte-carlo text-center leading-[72px]">
+					class="text-[#0099ff] text-[8vh] w-auto mx-auto mt-4 font-monte-carlo text-center leading-[72px]">
 					Luis y Fionna
 					
 				</h1>
@@ -35,6 +35,9 @@
 					<Countdown class="grid grid-cols-4 gap-1 mx-auto"></Countdown>
 					<hr
 						class="h-[1px] w-full bg-transparent border-b border-[#846537] my-4" />
+
+						<h2>Otro countdown</h2>
+						<Countdown class="grid grid-cols-4 gap-1 mx-auto"></Countdown>
 				</div>
         <h1
 					class="text-[#DEA95A] text-[50px] w-auto mx-auto mt-4 font-monte-carlo text-center leading -[30px]">
@@ -87,8 +90,21 @@
 	`;
 
 	const weddingData = [
+<<<<<<< HEAD
 {
 			
+=======
+	{
+			title: "Mesa de Regalos",
+			bgImage: "mandala_3.jpeg",
+			subtitle: "Agradecemos cualquier detalle",
+			text: "Y para que te des una idea, aquí te dejamos algunas sugerencias:",
+			abstract: ".",
+			url: "",
+			extra: tableLinks,
+		},
+		{
+>>>>>>> 4741b8d9c868207b354cc9adf4d11a2979bc2a4c
 			id: 1,
 			title: "Ceremonia",
 			bgImage: "iglesia.jpg",
@@ -118,14 +134,6 @@
 			url: "",
 			extra: dressInfo,
 		},
-		{
-			title: "Mesa de Regalos",
-			bgImage: "mandala_3.jpeg",
-			subtitle: "Agradecemos cualquier detalle",
-			text: "Y para que te des una idea, aquí te dejamos algunas sugerencias:",
-			abstract: ".",
-			url: "",
-			extra: tableLinks,
-		},
+		
 	];
 </script>

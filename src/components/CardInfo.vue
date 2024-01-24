@@ -2,7 +2,6 @@
 
 <template>
 	<div
-		
 		v-for="(item, index) in data"
 		@click="showModal(index)"
 		class="card rounded-[4px] relative h-[240px]  w-full bg-cover bg-center my-[16px] sm:opacity-90 sm:cursor-pointer sm:hover:opacity-100"
