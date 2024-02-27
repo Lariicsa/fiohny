@@ -1,54 +1,99 @@
+<!-- @format -->
+
 <template>
-  <div class="justify-space-around py-[4px] my-auto">
+	<div class="d-flex justify-space-around pt-15">
+		<!-- <v-card class="opacitybg mx-auto" width="150px" weight="120px" href="https://www.yusufonaran.me" target="_blank">
+          <v-card-text>
+              <p class="text-h2 text--primary text-center font-weight-regular">
+                  {{ years }}
+              </p>
+          </v-card-text>
+          <v-card-actions>
+              <v-btn block text color="deep-purple accent-4">
+                  YEARS
+              </v-btn>
+          </v-card-actions>
+      </v-card> -->
+		<!-- ---------------- -->
 
-    <div
-      class="flex flex-col justify-center items-center text-white text-center font-libre"
-    >
-      <p class="font-bold text-[31px]">{{ Math.abs(days % 365) }}</p>
-      <span class="text-sm">días</span>
-    </div>
+		<div class="flex flex-col items-center justify-between">
+			<p class="text-h2 text--primary text-center font-weight-regular">
+				{{ days % 365 }}
+			</p>
+			DAYS
+		</div>
 
-    <div
-      class="flex flex-col justify-center items-center text-white text-center font-libre"
-    >
-      <p class="font-bold text-[30px]">
-        {{ Math.abs(hours % 24) }}
-      </p>
-      <span class="text-sm">horas</span>
-    </div>
-
-    <div
-      class="flex flex-col justify-center items-center text-white text-center font-libre"
-    >
-      <p class="font-bold text-[30px]">
-        {{ Math.abs(minutes % 60) }}
-      </p>
-      <span class="text-sm"> min </span>
-    </div>
-
-    <div
-      class="flex flex-col justify-center items-center text-white text-center font-libre"
-    >
-      <p class="font-bold text-[30px]">
-        {{ Math.abs(seconds % 60) }}
-      </p>
-      <span class="text-sm">seg</span>
-    </div>
-  </div>
+		<!-- ---------------- -->
+		<v-card
+			class="opacitybg mx-auto"
+			width="150px"
+			weight="120px"
+			href="https://www.yusufonaran.me"
+			target="_blank">
+			<v-card-text>
+				<p class="text-h2 text--primary text-center font-weight-regular">
+					{{ hours % 24 }}
+				</p>
+			</v-card-text>
+			<v-card-actions>
+				<v-btn block text color="deep-purple accent-4"> HOURS </v-btn>
+			</v-card-actions>
+		</v-card>
+		<!-- ---------------- -->
+		<v-card
+			class="opacitybg mx-auto"
+			width="150px"
+			weight="120px"
+			href="https://www.yusufonaran.me"
+			target="_blank">
+			<v-card-text>
+				<p class="text-h2 text--primary text-center font-weight-regular">
+					{{ minutes % 60 }}
+				</p>
+			</v-card-text>
+			<v-card-actions>
+				<v-btn block text color="deep-purple accent-4"> MINUTES </v-btn>
+			</v-card-actions>
+		</v-card>
+		<!-- ---------------- -->
+		<v-card
+			class="opacitybg mx-auto"
+			width="150px"
+			weight="120px"
+			href="https://www.yusufonaran.me"
+			target="_blank">
+			<v-card-text>
+				<p class="text-h2 text--primary text-center font-weight-regular">
+					{{ seconds % 60 }}
+				</p>
+			</v-card-text>
+			<v-card-actions>
+				<v-btn block text color="deep-purple accent-4"> SECONDS </v-btn>
+			</v-card-actions>
+		</v-card>
+	</div>
 </template>
 
 <script>
 	import { ref } from "@vue/reactivity";
 
 	export default {
+<<<<<<< HEAD
 		name: "Countdown",
+=======
+		name: "CounterCards",
+>>>>>>> develop
 		setup() {
 			const years = ref(0);
 			const days = ref(0);
 			const hours = ref(0);
 			const minutes = ref(0);
 			const seconds = ref(0);
+<<<<<<< HEAD
 			const lunchDate = new Date("08 October 2023");
+=======
+			const lunchDate = new Date("07 Octber 2023");
+>>>>>>> develop
 
 			setInterval(() => {
 				const currentDate = new Date();
@@ -68,6 +113,10 @@
 
 <style>
 	.opacitybg {
+<<<<<<< HEAD
 		background: rgba(209, 153, 10, 0.7);
+=======
+		background: rgba(255, 255, 255, 0.7);
+>>>>>>> develop
 	}
 </style>
